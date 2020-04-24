@@ -7,9 +7,9 @@ public class Segelflugzeug extends Flugzeug {
 
 
 	public Segelflugzeug(float spannw) {
-	
-		this.spannw = spannw;
-		this.sitze = 1;
+		super(spannw, 1);
+//		this.spannw = spannw;
+//		this.sitze = 1;
 		Segelflugzeug.anzahl++;
 
 	}

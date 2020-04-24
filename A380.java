@@ -5,15 +5,16 @@ public class A380 extends Passagierflugzeug{
 	
 	static int anzahl = 0;
 	
+	static final int motoren = 4;;
+	
 	static final float spannw = 79.8f;
 	static final int sitze = 558;
 	static final float gschub = 320;
-	static int motoren = 4;
 	
 
 	public A380() {
 		super(spannw, sitze, gschub);
-		this.motoren = motoren;
+			
 		this.anzahl++;
 	
 	}
